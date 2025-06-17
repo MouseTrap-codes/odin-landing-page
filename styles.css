@@ -9,10 +9,10 @@
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 16px 0;
+    padding: 16px 190px;
 }
 
 .header-logo {
@@ -39,4 +39,63 @@ a {
 
 }
 
-/* hero section */
+/* content-one */
+
+.content-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 32px 0;
+    height: 600px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+}
+
+.left .hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left .sign-up {
+    background-color: #3882F6;
+    max-width: 150px;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+.left .sign-up:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.right {
+    width: 600px;
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .placeholder-text {
+    color: #E5E7EB;
+}
