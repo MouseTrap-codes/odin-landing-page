@@ -148,3 +148,33 @@ a {
     color: #1F2937;
     text-align: center;
 }
+
+/* content-three */
+.content-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 0 32px;
+    gap: 32px;
+}
+
+.content-three .quote,
+.content-three .author {
+    width: 800px;
+}
+
+.content-three .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+}
+
+.content-three .author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
